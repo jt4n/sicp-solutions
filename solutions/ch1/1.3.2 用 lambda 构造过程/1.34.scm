@@ -21,6 +21,6 @@
 ;; given: 2
 
 ;; 这道题重点在于理解, 在定义时: 
-;; (define (function []) []) 是 (define function (lambda ([]) [])) 的语法糖
+;; (define (func_name []) []) 是 (define func_name (lambda ([]) [])) 的语法糖
 ;; 在调用时:
-;; (function x) 是 ((lambda ([]) []) x) 的语法糖
+;; (func_name x) 是 ((lambda ([]) []) x) 的语法糖
