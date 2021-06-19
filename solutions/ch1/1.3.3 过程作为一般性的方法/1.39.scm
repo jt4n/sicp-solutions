@@ -43,9 +43,6 @@
                 k))
   
 
-
-
-
 (define (main)
     (define pi 3.14159)
 
