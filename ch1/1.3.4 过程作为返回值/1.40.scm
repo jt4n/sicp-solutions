@@ -33,6 +33,8 @@
 (define (newtons-method g guess)
   (fixed-point (newton-transform g) guess))
 
+
+;; cubic
 (define (cubic a b c)
   (lambda (x) 
     (+  (cube x)
