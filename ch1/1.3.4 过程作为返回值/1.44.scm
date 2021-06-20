@@ -21,8 +21,9 @@
 
 
 (define (multiple_smooth f time init_x)
-  (let ((smooth_by_time (repeated smooth time)))
-    ((smooth_by_time f) init_x)))
+  (((repeated smooth time)
+                          f)
+                            init_x))
 
 
 (define (main)
