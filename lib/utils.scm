@@ -4,4 +4,8 @@
                   args)
         (newline))
 
+(define (square x) (* x x))
+
+(define (cube x) (* x x x))
+
 (provide (all-defined-out))

@@ -1,11 +1,13 @@
 #lang sicp
 (#%require "../../lib/utils.scm")
-; (#%require "../../lib/ch1.scm")
 
-(define (hello)
-  1)
+(define (square x) (* x x))
 
-(define (hello)
-  2)
+(define (compose f g)
+  (lambda (x) (f (g x))))
 
-(logg "hi")
+(define (main)
+  (logg ((compose square inc) 6))
+)
+
+(main)
