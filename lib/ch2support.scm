@@ -1,3 +1,4 @@
+#lang racket
 ;;; CODE FROM OTHER CHAPTERS OF STRUCTURE AND INTERPRETATION OF
 ;;;  COMPUTER PROGRAMS NEEDED BY CHAPTER 2
 
@@ -64,3 +65,4 @@
 (define put (operation-table 'insert-proc!))
 
 ;;;-----------
+(provide (all-defined-out))

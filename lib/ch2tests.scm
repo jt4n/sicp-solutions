@@ -1,3 +1,4 @@
+#lang racket
 ;;; EXAMPLES OF TESTING CODE (IN MIT SCHEME)
 ;;; FROM CHAPTER 2 OF STRUCTURE AND INTERPRETATION OF COMPUTER PROGRAMS
 
@@ -165,3 +166,4 @@ b
 (mul b b)
 ;Value 6: (polynomial x (200 1) (102 4) (100 2) (4 4) (2 4) (0 1))
 
+(provide (all-defined-out))

@@ -1,3 +1,4 @@
+#lang racket
 ;;;;CODE FROM CHAPTER 1 OF STRUCTURE AND INTERPRETATION OF COMPUTER PROGRAMS
 
 ;;; Examples from the book are commented out with ;: so that they
@@ -801,3 +802,4 @@
 ;;EXERCISE 1.43
 ;: ((repeated square 2) 5)
 
+(provide (all-defined-out))

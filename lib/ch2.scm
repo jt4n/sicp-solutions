@@ -1,3 +1,4 @@
+#lang racket
 ;;;;CODE FROM CHAPTER 2 OF STRUCTURE AND INTERPRETATION OF COMPUTER PROGRAMS
 
 ;;; Examples from the book are commented out with ;: so that they
@@ -1793,3 +1794,5 @@
 ;: (define rf2 (make-rational p3 p4))
 
 ;: (add rf1 rf2)
+
+(provide (all-defined-out))
