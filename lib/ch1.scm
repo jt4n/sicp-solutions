@@ -165,8 +165,7 @@
 ;: (test 0 (p))
 
 
-;;;SECTION 1.1.7 
-; 牛顿法求平方根
+;;;SECTION 1.1.7
 
 (define (sqrt-iter guess x)
   (if (good-enough? guess x)
@@ -801,3 +800,4 @@
 
 ;;EXERCISE 1.43
 ;: ((repeated square 2) 5)
+
