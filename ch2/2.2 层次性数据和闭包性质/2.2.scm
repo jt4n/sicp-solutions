@@ -1,6 +1,5 @@
 #lang racket
 (#%require "../../lib/utils.scm")
-; (#%require "../../lib/ch2.scm")
 
 ; cons car cdr
 (define (make_segment start end)
@@ -44,10 +43,13 @@
   (display (y_point p))
   (display ")"))
 
-(define (main)
-  (print_point 
-            (midpoint_segment (make_segment   (make_point 0 0) 
-                                              (make_point 10 20))))
-)
+(provide (all-defined-out))
 
-(main)
+; (define (main)
+;   (print_point 
+;             (midpoint_segment (make_segment   (make_point 0 0) 
+;                                               (make_point 10 20))))
+; )
+
+; (main)
+
