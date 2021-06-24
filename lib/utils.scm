@@ -1,4 +1,6 @@
 #lang racket
+(provide (all-defined-out))
+
 (define (logg . args)
         (for-each (lambda (x) (display x) (display #\space)) 
                   args)
@@ -8,4 +10,5 @@
 
 (define (cube x) (* x x x))
 
-(provide (all-defined-out))
+; for ch2
+(define nil '())
