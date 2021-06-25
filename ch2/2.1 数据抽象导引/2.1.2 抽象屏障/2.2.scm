@@ -30,8 +30,8 @@
           (end (end_segment s)))
       (make_point (average  (x_point (start_segment s))
                           (x_point (end_segment s)))
-                (average  (y_point (start_segment s))
-                          (y_point (end_segment s)))))))
+                  (average  (y_point (start_segment s))
+                            (y_point (end_segment s)))))))
 
 
 ;; EXERCISE 2.2
