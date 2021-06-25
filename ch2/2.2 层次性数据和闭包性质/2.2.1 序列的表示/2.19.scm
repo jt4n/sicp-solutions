@@ -1,5 +1,5 @@
 #lang racket
-(#%require "../../lib/utils.scm")
+(#%require "../../../lib/utils.scm")
 (#%require "2.18.scm")
 
 ;; EXERCISE 2.19

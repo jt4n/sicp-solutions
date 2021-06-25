@@ -1,5 +1,5 @@
 #lang sicp
-(#%require "../../lib/utils.scm")
+(#%require "../../../lib/utils.scm")
 ; (#%require "../../lib/ch2support.scm")
 
 ;;;SECTION 2.1.1

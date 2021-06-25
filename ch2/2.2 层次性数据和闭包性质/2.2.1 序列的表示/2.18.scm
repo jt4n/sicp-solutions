@@ -1,5 +1,5 @@
 #lang racket
-(#%require "../../lib/utils.scm")
+(#%require "../../../lib/utils.scm")
 
 ; iter
 (define (reverse lst)

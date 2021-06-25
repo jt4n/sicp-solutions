@@ -1,5 +1,5 @@
 #lang racket
-(#%require "../../lib/utils.scm")
+(#%require "../../../lib/utils.scm")
 
 ;; EXERCISE 2.6
 ; 这个练习实现了 Church 计数系统, 里面没有传统意义的"数", 只有数的"行为"和"约束"

@@ -1,5 +1,5 @@
 #lang racket
-(#%require "../../lib/utils.scm")
+(#%require "../../../lib/utils.scm")
 
 (define (length items)
   (if (null? items)

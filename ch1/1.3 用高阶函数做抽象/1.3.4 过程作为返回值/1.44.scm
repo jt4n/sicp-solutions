@@ -1,5 +1,5 @@
 #lang sicp
-(#%require "../../lib/utils.scm")
+(#%require "../../../lib/utils.scm")
 
 (define (compose f g)
   (lambda (x) (f (g x))))
