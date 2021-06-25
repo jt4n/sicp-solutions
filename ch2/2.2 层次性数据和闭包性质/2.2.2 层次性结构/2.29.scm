@@ -49,7 +49,7 @@
   (=  (branch-torque left)
       (branch-torque right)))
 
-; 两个函数互相嵌套
+; 两个函数互相嵌套调用
 (define (branch-balance? branch)
   (if (not-fringe? branch)
     (mobile-balance? (branch-structure branch))
