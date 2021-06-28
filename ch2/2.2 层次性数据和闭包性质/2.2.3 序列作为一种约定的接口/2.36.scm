@@ -73,8 +73,9 @@
 
 )
 
-(main)
+; (main)
 
+(provide accumulate accumulate-n)
 
 
 
