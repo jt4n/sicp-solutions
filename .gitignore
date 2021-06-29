@@ -1,0 +1,8 @@
+# git ignore
+# .gitignore
+test.scm
+/compiled
+/test
+/lib/compiled
+# sicp-solutions.code-workspace
+/ch2/2.2 层次性数据和闭包性质/2.2.3 序列作为一种约定的接口/compiled
