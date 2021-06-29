@@ -496,6 +496,8 @@
 
 ;: (enumerate-interval 2 7)
 
+; (provide enumerate-interval)
+
 (define (enumerate-tree tree)
   (cond ((null? tree) nil)
         ((not (pair? tree)) (list tree))
@@ -1795,4 +1797,4 @@
 
 ;: (add rf1 rf2)
 
-(provide (all-defined-out))
+; (provide (all-defined-out))
